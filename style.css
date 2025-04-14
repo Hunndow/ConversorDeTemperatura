@@ -70,7 +70,7 @@
   
   input[type="button"] {
     padding: 12px;
-    background-color: #007BFF;
+    background-color: #215a9d;
     color: white;
     border: none;
     border-radius: 8px;
@@ -87,7 +87,7 @@
     margin-top: 20px;
     padding: 15px;
     background-color: #e0f7fa;
-    border-left: 5px solid #007BFF;
+    border-left: 5px solid #215a9d;
     border-radius: 8px;
   }
   
