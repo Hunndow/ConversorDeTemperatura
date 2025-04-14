@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #004080;
+  }
+  
+
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  section.conversion {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .conversionblock form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+
+  label {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #004080;
+    outline: none;
+  }
+  
+  input[type="button"] {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f7fa;
+    border-left: 5px solid #007BFF;
+    border-radius: 8px;
+  }
+  
+  .resultado p {
+    font-size: 1.1rem;
+    color: #004d40;
+    font-weight: bold;
+  }
+  
+
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 40px;
+  }
+  
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

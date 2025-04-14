@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+  <!-- Define o conjunto de caracteres da página para suportar acentuação e símbolos -->
+  <meta charset="UTF-8">
+
+  <!-- Garante que a página seja exibida corretamente em dispositivos móveis -->
+  <!-- "width=device-width" ajusta a largura da página ao tamanho da tela -->
+  <!-- "initial-scale=1.0" define o nível de zoom inicial -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Define o título da página, que aparece na aba do navegador -->
+  <title>Conversor de Temperatura</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Conversor de Temperatura</h1>
+  </header>
+
+  <main>
+    <section class="conversion">
+
+      <div class="conversionblock">
+        <form> 
+          <label for="temp">Temperatura</label>
+          <input type="number" id="temp" name="temp">
+          <input type="button" onclick="converterTemp(true)" id="CparaFahrenheit" value="Converter (Fahrenheit)">
+          <input type="button" onclick="converterTemp(false)" id="FparaCelsius" value="Converter (Celsius)">
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>&copy; 2025 - Davi Barbosa</p>
+  </footer>
+
+  <!-- Conecta o arquivo JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
